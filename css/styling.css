@@ -41,7 +41,7 @@ animation: spin 30s ease-in-out infinite;
 20% {content: "FAST RECORD & RETRIVE YOUR BUSINESS DATA !!!";}
 30% {content: "PERFORM EASY UNDERSTANDABLE BUSINESS ANALYSICS !!!";}
 40% {content: "FAST & PROFICIENT STOCK INTAKE !!!";}
-50% {content: "MANAGE & HAVE YOUR CUSTOMERS CLOSE !!!";}
+50% {content: "CAPTURE LEADS AND CUSTOMERS CLOSE !!!";}
 60% {content: "WORK EFFICIENTLY WITH YOUR VENDORS/SUPPLIERS!!!";}
 70% {content: "KNOW WHO IS INVOLVED TRANSPORTING YOUR PRODUCTS !!!";}
 80% {content: "RECORD, MANAGE, ORGANIZE  AND TRACK YOUR EXPENSES !!!";}
@@ -98,7 +98,8 @@ color: white;
 }
 
 .payment-container input {
-color: blue;
+color: black;
+font-family: "arial black";
 }
 
 .unique-text {color: red; font-size: 30px;}
