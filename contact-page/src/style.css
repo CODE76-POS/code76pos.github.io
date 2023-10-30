@@ -1,0 +1,161 @@
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+p,
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #414141 !important;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+}
+
+.clearfix {
+  margin: 40px 0;
+}
+
+.footer .title span {
+  height: 2px;
+  width: 10%;
+  margin: 0 20px;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer .title {
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+
+.footer #footer-left .sub-title,
+.footer #footer-right .sub-title {
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.footer #footer-left .icon {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer #footer-left .glyphicon {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  background-color: #414141;
+  border-radius: 50%;
+}
+
+.footer #footer-left .glyphicon:hover {
+  background-color: blue;
+}
+
+.footer #footer-left i {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  background-color: #414141;
+  border-radius: 50%;
+}
+
+.footer #footer-left i:hover {
+  background-color: blue;
+}
+
+.footer #footer-left p {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer #footer-right form {
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.footer #footer-right input,
+.footer #footer-right textarea,
+.footer #footer-right .input-group-addon,
+.footer #footer-right .btn {
+  border: solid thin #414141;
+}
+
+.footer #footer-right .input-group-addon {
+  background-color: #414141;
+  color: white;
+}
+
+.footer #footer-right .btn {
+  background-color: white;
+  color: #414141;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.footer #footer-right .btn:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.footer #footer-right .input-group-addon {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.footer #footer-right .btn {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.footer #footer-right .form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 3px rgba(50, 100, 250, 0.8);
+}
+
+@media (max-width: 480px) {
+  .footer .title,
+  .footer .sub-title {
+    padding: 20px 0;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .clearfix {
+    margin: 0 auto;
+  }
+  .footer #footer-right form {
+    padding: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #footer-left .col-xs-12 {
+    width: 50%;
+  }
+}
