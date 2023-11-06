@@ -1,0 +1,306 @@
+
+
+.intro-content {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.intro-content h1 {
+   font-family: "algerian", 'Arial Black','Arial Narrow Bold', sans-serif;
+   font-size: 30px;
+   color: white;
+}
+
+.intro-content p {
+    font-family: 'Arial Black','Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: aqua;
+}
+
+.intro-content h2 {
+    font-family: 'Arial Black','Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#spin {
+    color: rgb(17, 248, 9);
+    background-color: #010615;
+}
+
+#spin:after {
+content: "";
+animation: spin 30s ease-in-out infinite;
+}
+
+@keyframes spin {
+0% {content: "SECURE YOUR BUSINESS DATA !!!";}
+10% {content: "PROFICIENTLY ORGANIZE YOUR BUSINESS DATA !!!";}
+20% {content: "FAST RECORD & RETRIVE YOUR BUSINESS DATA !!!";}
+30% {content: "PERFORM EASY UNDERSTANDABLE BUSINESS ANALYSICS !!!";}
+40% {content: "FAST & PROFICIENT STOCK INTAKE !!!";}
+50% {content: "MANAGE & HAVE YOUR CUSTOMERS CLOSE !!!";}
+60% {content: "WORK EFFICIENTLY WITH YOUR VENDORS/SUPPLIERS!!!";}
+70% {content: "KNOW WHO IS INVOLVED TRANSPORTING YOUR PRODUCTS !!!";}
+80% {content: "RECORD, MANAGE, ORGANIZE  AND TRACK YOUR EXPENSES !!!";}
+90% {content: "NOW CREATE, RECORD, TRACK AND ORGAINIZE YOUR INVOICES !!!";}
+100% {content: "NEVER HAVE NO WORRIES ABOUT TRACKING CUSTOMER DEBTS !!!";}
+}
+  
+
+
+/* PURCHASE SECTION */
+.Purchase {
+    display: flex;
+}
+
+.payment-card {
+    display: flex;
+    width: auto;
+    border: 1px solid blue;
+    border-radius: 30px;
+    padding: 20px;
+    backdrop-filter: blur(50px); /* Adjust the blur strength as needed */
+    z-index: 2;
+}
+
+
+
+/* THE TABLET SIZING */
+@media (max-width: 800px) {
+    .payment-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .payment-contaner{
+        width: 200px;
+    }
+}
+
+
+
+.timer {
+font-size: 1.5rem;
+color: red;
+font-size: 40px;
+}
+
+.payment-left p{
+font-size: 15px;
+}
+
+
+cursor {
+color: white;
+}
+
+.payment-container input {
+color: white;
+}
+
+.unique-text {color: red; font-size: 30px;}
+
+.subscribe-names {margin:1%; border-radius: 10px; padding-left:2%;}
+.subscribe-phone {margin:1%; border-radius: 10px; padding-left:2%;}
+.subscribe-email {margin:1%; border-radius: 10px; padding-left:2%;}
+.subscribe-button {
+    margin:2%;
+    width: 400px;
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #d30e4c;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styling for the button */
+.cool-button {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #d30e4c;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input, select {
+    width: 100%;
+    margin-top: 1.5%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 1.2em;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+#dropdown {
+border: 2px solid blue;
+}
+
+[type="checkbox"],
+    [type="radio"] {
+            width: auto;
+    }
+
+fieldset {
+border-color: blue;
+border-style: solid;
+}
+
+.payment-container {
+border-radius: 30px;
+margin: 2% 5% 2% 5%;
+padding: 1% 2% 1% 2%;
+background-color: lightgray;
+border-color: blue;
+border-style: dashed;
+width: fit-content;
+color: white;
+}
+
+
+.foot {
+text-align: center;
+font-family: 'Special Elite', Helvetica, sans-serif;
+color: white;
+padding: 0% 0% 1% 0%;
+}
+
+
+
+
+
+/* CONTACT US SECTION */
+.contact-card {
+display: flex;
+width: auto;
+border: 1px solid blue;
+border-radius: 30px;
+padding: 20px;
+backdrop-filter: blur(50px); /* Adjust the blur strength as needed */
+z-index: 2;
+background: linear-gradient(50deg,  #ff007f,  #cc00aa);
+color: black;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-left h1{
+color: white;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-left p{
+color: white;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-container {
+border-radius: 30px;
+margin: 2% 5% 2% 5%;
+padding: 1% 2% 1% 2%;
+background-color: lightgray;
+border-color: blue;
+border-style: dashed;
+width: fit-content;
+color: white;
+}
+
+
+.foot {
+text-align: center;
+font-family: 'Special Elite', Helvetica, sans-serif;
+color: white;
+padding: 0% 0% 1% 0%;
+}
+
+
+
+.button {
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+background-color: white;
+cursor: pointer;
+padding: 2% 0% 2% 0%;
+}
+
+textarea {
+width: 100%;
+height: 100px;
+margin-top: 1.5%;
+resize: none;
+background-color: white;
+border: 2px solid black;
+font-family: Helvetica, sans-serif;
+font-size: 1.2em;
+color: black;
+}
+
+
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.videos .item {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+}
+
+.cool-button {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
