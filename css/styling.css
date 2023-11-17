@@ -292,6 +292,8 @@ color: black;
 
 .trust-us {
     display: flex;
+    border: 1px solid blue;
+    border-radius: 10%;
 }
 
 .trust-us image {
@@ -302,6 +304,7 @@ color: black;
 .content-trust {
     display: flex;
     flex-direction: column;
+    
 }
 
 .content-trust h1 {
