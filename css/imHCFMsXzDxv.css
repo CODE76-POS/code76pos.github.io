@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+}
+
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body{
+    background: rgb(3, 0, 14);
+    color:rgb(230, 230, 230);
+}
+:root{
+    --bluemain:rgb(31, 83, 197);
+    --blue2:rgba(1, 16, 49, 0.9);
+    --bluedrp:rgba(31, 83, 197, 0.9);
+    --blue3:#96c9da;
+    --blue4:#018abe;
+    --blue5:#04467a;
+    --blue6:#005fed;
+    --orangemain:rgb(248, 101, 33);
+    --orange1:rgb(214, 110, 62);
+    --black1:rgba(0, 0, 0, 0.8);
+    --white1:rgba(255, 255, 255, 0.1);
+    --white2:rgba(255, 255, 255, 0.7);
+    --white3:rgba(255, 255, 255, 0.4);;
+}
+.top-i i{
+    font-size: 1.2em;
+}
+.top-i i:hover{
+    transform:scale(1.3);
+}
+.top-c:hover{
+    transform:scale(1.1);
+}
+.carro h5, .carro p{
+    color: var(--blue2);
+}
+.carro h5{
+    font-size: 1.4em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--orangemain);
+}
+li{
+    list-style: none;
+}
+.nav-link{
+    margin-right: 5px;
+}
+.dropdown-menu{
+    background-color: var(--bluedrp);
+}
+.dropdown-item:hover{
+    background-color: white;
+    transition: .4s;
+}
+.dropdown-menu a:hover{
+    transform:scale(1.03);
+}
+.navbar{
+    background: var(--blue2);
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: var(--orangemain);
+}
+.navbar-toggler-icon{
+        fill: white;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 4px;
+}
+.tree h1{
+    font-size: 1.5em;
+}
+.tree{
+    text-align: center;
+}
+.tree img:hover{
+    scale: 1.1;
+    transition:0.3s;
+}
+
+
+.contentuo h1{
+    color: var(--blue3);
+}
+
+.serv{
+    box-shadow: rgba(108, 106, 252, 0.6) 0px 0px 6px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.serv h1{
+    color: white;
+    font-family: 'Rye', cursive;
+}
+.servwe{
+    box-shadow: rgba(108, 106, 252, 0.6) 0px 0px 6px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.contus{
+    background: var(--white1);
+}
+.toptopin a{
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+
+#map{
+    height: 400px;
+}
+
+.contactmeicon{
+	position: absolute;
+	bottom: 70px;
+	position: fixed;
+}
+.contactmeicon img{
+	width:45px;
+}
+.contactmeicon:before,
+.contactmeicon:after{
+	content:'';
+	display: block;
+	position: absolute;
+	border:50%;
+	border:1px solid #58ea00;
+	left:-20px;
+	right:-20px;
+	top:-20px;
+	bottom:-20px;
+	border-radius: 50%;
+	animation: animate 1.3s linear infinite;
+	opacity: 0;
+}
+.contactmeicon:after{
+	animation-delay: .3s;
+}
+
+.orn{
+    background: var(--orangemain);
+}
+.orn:hover{
+    background: var(--blue6);
+}
+.orn i{
+    font-size:1.1em;
+}
+.orn a:hover{
+   color: wheat;  
+}
+.ornbtn{
+    background: var(--orangemain);
+}
+.ornbtn a{
+    display: block;
+}
+.ornbtn:hover{
+    background: var(--blue6);
+}
+.orn2{
+    color: var(--orangemain);
+}
+.blu2{
+    color: var(--blue6);
+}
+
+.brbr span{
+    font-size: 1.2em;
+    color: var(--orangemain);
+}
+span{
+    font-size: .9em;
+    color: var(--orangemain);
+}
+
+.indic i{
+    background-image: linear-gradient(to left,#0652DD,#ff4400);
+    padding: 15px;
+    border-radius: 50%;
+}
+.indic i:hover{
+    color: white;
+}
+.hid{
+    opacity: 0;
+}
+
+.fr{
+    border: 1px solid white;
+    margin: 5px;
+}
+.fr.active{
+    background-image: linear-gradient(to left,#0652DD,#EE5A24);
+    color: white;
+}
+/* .fr:hover{
+    background-image: linear-gradient(to left,#0652DD,#EE5A24);
+    color: white;
+} */
+.lgys2 a:hover{
+    color: white;
+}
+.lgys{
+    border: none;
+}
+.frbk button{
+    background-image: linear-gradient(to left,#0652DD,#EE5A24);
+    border: none;
+    box-shadow: rgba(7, 6, 49, 0.6) 0px 0px 6px;
+}
+.frbk button:hover, .lgys:hover{
+    background-image: linear-gradient(to left,#EE5A24,#0652DD);
+    color: white;
+}
+.frbk a:hover, .lgys a:hover{
+    color: white;
+}
+.frbk a, .lgys a{
+    display: block;
+}
+.fliid{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+}
+.flii11{
+    background-image: url('../images/sd%20creative%20website%20design%20thika.png');
+}
+.flii1{
+    background-image: url('../images/sd%20creative%20website%20design%20thika%20bk.png');
+}
+.flii12{
+    background-image: url('../images/sd%20creative%20website%20design%20nairobi.png');
+}
+ .flii2{
+    background-image: url('../images/sd%20creative%20website%20design%20nairobi%20bk.png');
+}
+.flii13{
+    background-image: url('../images/website%20design%20company%20nairobi.png');
+}
+ .flii3{
+    background-image: url('../images/website%20design%20company%20nairobi%20bk.png');
+}
+.flii14{
+    background-image: url('../images/web%20design%20company%20nairobi.png');
+}
+ .flii4{
+    background-image: url('../images/web%20design%20company%20nairobi%20bk.png');
+}
+.flii15{
+    background-image: url('../images/web%20design%20services%20thika_1.png');
+}
+ .flii5{
+    background-image: url('../images/web%20design%20services%20thika%20bk.png');
+}
+.flii16{
+    background-image: url('../images/web%20design%20services%20in%20nairobi.png');
+}
+ .flii6{
+    background-image: url('../images/web%20design%20services%20in%20nairobi%20kenya.png');
+}
+.flii17{
+    background-image: url('../images/best%20web%20design%20company%20in%20Kenya.png');
+}
+ .flii7{
+    background-image: url('../images/best%20web%20design%20services%20in%20Kenya.png');
+}
+.flii18{
+    background-image: url('../images/web%20design%20agency%20in%20Thika%20town.png');
+}
+ .flii8{
+    background-image: url('../images/web%20design%20services%20in%20Thika%20town.png');
+}
+
+
+.flip-box{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+.flip-box-front, .flip-box-back{
+    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+    backface-visibility: hidden;
+}
+.flip-box-front{
+    transform:rotateY(0deg);
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-front{
+    transform:rotateY(-180deg);
+    transform-style: preserve-3d;
+}
+.flip-box-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    opacity: 0;
+}
+.flip-box:hover .flip-box-back{
+    transform:rotateY(0deg);
+    transform-style: preserve-3d;
+    opacity: 100%;
+}
+.flip-box .inner{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+    outline: 1px solid transparent;
+    perspective: inherit;
+    z-index: 2;
+    transform:translateY(-50%)translateZ(60px)scale(.94);
+    top: 50%;
+}
+.flip-box .inner h2{
+    padding: 3px;
+    background: var(--white2);
+}
+.flip-box-header{
+    font-size: 30px;
+    color: var(--orangemain);
+}
+.flip-box p{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+
+@keyframes animate
+{
+	0%
+	{
+		transform:scale(0.5);
+		opacity:0;
+	}
+	50%
+	{
+		opacity:1;
+	}
+	100%{
+		transform: scale(1.1);
+		opacity: 0;
+	}
+}
+
+.socialfoot{
+    background-image: url('../images/footer-gif.gif');
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+.web-design{
+    background-image: url('../images/happy-worker.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;;
+}
+.branding_services{
+    background-image: url('../images/happy-shopping.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;;
+}
+.printing_services{
+    background-image: url('../images/counting-money.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.graphgall .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.graphgall .gallery .image{
+    overflow: hidden;
+    cursor: pointer;
+}
+.graphgall .gallery .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.graphgall .gallery .image img:hover{
+   transform:scale(1.4) rotate(15deg);
+}
+
+.brcr{
+    background: var(--blue6);
+    color: white;
+}
+.cyan{
+    color: cyan;
+}
+.magenta{
+    color: magenta;
+}
+.yellow{
+    color: yellow;
+}
+
+.servdes i{
+    font-size: 1.5em;
+}
+.servdes li{
+    font-size: 1.5em;
+}
+
+.last{
+    background: rgb(3, 0, 14);
+    color: white;
+}
+.last p{
+    font-size: .8em;
+}
+.last span{
+    color: white;
+    font-weight: bold;
+}
+
+.cnt img{
+    width: 50%;
+}
+.cnt h2{
+    font-size: 1.2em;
+}
+.counter{
+    font-size: 1.4em;
+}
+
+#year{
+    font-size: 1em;
+    color: rgb(208, 208, 208);
+}
+
+/* .back-top i{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 1.7em;
+    z-index: 99999;
+    position: fixed;
+    color: var(--orangemain);
+} */
+.back-top a {
+  background: #f24608 none repeat scroll 0 0;
+  fill: #f24608;
+}
+.back-top {
+	bottom: 15px;
+	position: fixed;
+	right: 15px;
+	z-index: 1;
+  }
+  .back-top a {
+	border-radius: 50%;
+	color: #ffffff;
+	display: block;
+	font-size: 19px;
+	height: 40px;
+	line-height: 36px;
+	text-align: center;
+	vertical-align: top;
+	width: 40px;
+  }
+  .back-top a:hover, .back-top a:focus {
+	  color:#fff;
+  }
+
+
+  @media screen and (max-width: 1440px){
+    .fliid{
+        height: 300px;
+    }
+    nav a{
+        font-size: .8em;
+    }
+}
+@media screen and (max-width: 1280px){
+    .fliid{
+        height: 270px;
+    }
+    nav a{
+        font-size: .65em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .carro h5, .carro p{
+        display: none;
+    }
+    .tt{
+        margin-top: 50px;
+    }
+    .nav-link{
+        margin-top: 20px;
+    }
+    nav a{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 414px){
+    *{
+        font-size: 1em;
+    }
+    .tree img{
+        width: 60%;
+    }
+    .indic li{
+        font-size: .8em;
+    }
+    .lgys{
+        font-size: .8em;
+    }
+    .brbr{
+        font-size: 1.3em; 
+    }
+    h2{
+        font-size: 1.3em;  
+    }
+    .last p{
+        font-size: .8em;
+        text-align: center;
+    }
+    nav a{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width: 320px){
+    *{
+        font-size: .95em;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+}
